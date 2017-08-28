@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Address_Info")
+@Table(name="Address")
 public class Address {
 	@Id
 	@GeneratedValue
